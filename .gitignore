@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual Environment
+.venv/
+
+# VS Code settings
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment variables
+.env
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# Logs
+*.log
+
+# Local development settings
+local_settings.py
+
+# Database
+*.sqlite3
+*.sqlite3-journal
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Ignore the file containing Gmail credentials
+credentials.json
+.env
+
+# Exclude sensitive data files
+data.xlsx
+
